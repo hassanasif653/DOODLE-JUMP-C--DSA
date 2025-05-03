@@ -99,15 +99,15 @@ Basic Algorithms:
 Collision Detection (Axis-Aligned Bounding Box - AABB)
 •	Used to check for overlaps between rectangular objects such as platforms, bullets, and enemies.
 •	Ensures accurate interaction by calculating positional deltas.
-Physics Simulation
+Physics Simulation:
 •	Gravity and acceleration are applied to simulate realistic jumping and falling mechanics for the player and projectiles.
-Platform Generation
+Platform Generation:
 •	Platforms are generated with spacing rules and randomness to balance difficulty.
-Monte Carlo Simulation
+Monte Carlo Simulation:
 •	Probabilistic spawning of bonuses and enemies based on predefined chances.
-Object Pooling
+Object Pooling:
 •	Prevents frequent memory allocation by reusing objects like bullets and enemies, improving performance.
-Scoring System
+Scoring System:
 •	Points are awarded for actions such as jumping on platforms and defeating enemies. Scores are hashed using SHA-256 for security.
 
 
